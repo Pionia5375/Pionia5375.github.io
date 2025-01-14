@@ -1,30 +1,130 @@
 body {
+     margin: 0;
+     padding-bottom: 0;
+     text-align: center;
+     font-family: "Merriweather", serif;
+     line-height: 2;
      background-color: #213555;
- }
-
-hr {
-     border-style: none;
-     border-top-style: dotted;
-     background-color: #213555;
-     border-color: #3E5879;
-     border-width: 5px;
-     width: 10%;
-}
-
-img {
-     height: 150px;
-     width: 100px;
 }
 
 h1 {
+     margin: 50px auto 0 auto;
+     font-family: "Sacramento", serif;
+     font-size: 90px;
+     color: #FFEB00;
+}
+
+h2 {
+     font-family: "Montserrat", serif;
+     font-size: 30px;
      color: #FFEB00;
 }
 
 h3 {
-     color: #FFEB00;
+     font-family: "Montserrat", serif;
+     color: #FFF100;
 }
 
-
-.circular {
-    border-radius: 100%;
+a {
+     font-family: "Montserrat", serif;
+     color: #FFF100;
 }
+
+p {
+     font-family: "Montserrat", serif;
+     color: #FFF100;
+}
+
+.subtitle {
+     font-weight: normal;
+}
+
+.top-container {
+     background-color: #0B192C;
+     position: relative;
+     padding-top: 100px;
+}
+
+.contact-me {
+     background-color: #3E5879;
+}
+
+.bottom-container {
+     padding-top: 60px;
+     background-color: #3E5879;
+}
+
+.university {
+     text-decoration: underline;
+}
+
+.top-cloud {
+     position: absolute;
+     display: block;
+     right: 400px;
+     top: 50px;
+}
+
+.bottom-cloud {
+     position: absolute;
+     left: 400px;
+     bottom: 250px;
+}
+
+.skill-row {
+     width: 50%;
+     margin: 100px auto;
+     text-align: left;
+}
+
+.hero {
+     margin-top: 70px;
+     width: 15%;
+}
+
+.skill1 {
+     width: 25%;
+     float: left;
+     margin-right: 30px;
+}
+
+.skill2 {
+     width: 25%;
+     float: right;
+     margin-left: 30px;
+}
+
+.contact-message {
+     margin: 40px auto 60px;
+}
+
+.footer-link {
+     margin-left: 15px;
+     margin-right: 15px;
+}
+
+.btn {
+     background: #FFF100;
+     background-image: -webkit-linear-gradient(top, #FFF100, #FFF100);
+     background-image: -moz-linear-gradient(top, #FFF100, #FFF100);
+     background-image: -ms-linear-gradient(top, #FFF100, #FFF100);
+     background-image: -o-linear-gradient(top, #FFF100, #FFF100);
+     background-image: linear-gradient(to bottom, #FFF100, #FFF100);
+     -webkit-border-radius: 28;
+     -moz-border-radius: 28;
+     border-radius: 28px;
+     font-family: "Montserrat", serif;
+     color: #3E5879;
+     font-size: 20px;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+     }
+
+
+hr {
+     border: dotted #FFF100 6px;
+     border-bottom: none;
+     width: 4%;
+     margin: 100px auto;
+}
+
